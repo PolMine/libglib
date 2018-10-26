@@ -123,7 +123,7 @@ typedef unsigned long guintptr;
 /* 
  * #ifdef	__cplusplus
  * #define G_CAN_INLINE	1
- * #else	/* !__cplusplus */
+ * #else
  * #define G_CAN_INLINE	1
  * #endif
 */ 
