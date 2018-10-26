@@ -120,11 +120,13 @@ typedef unsigned long guintptr;
 #define G_HAVE___INLINE__ 1
 #endif	/* !__cplusplus */
 
-#ifdef	__cplusplus
-#define G_CAN_INLINE	1
-#else	/* !__cplusplus */
-#define G_CAN_INLINE	1
-#endif
+/* 
+ * #ifdef	__cplusplus
+ * #define G_CAN_INLINE	1
+ * #else	/* !__cplusplus */
+ * #define G_CAN_INLINE	1
+ * #endif
+*/ 
 
 #ifndef __cplusplus
 # define G_HAVE_ISO_VARARGS 1
